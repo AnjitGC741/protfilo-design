@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-family: "Inter",sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+}
+/* header section */
+header{
+    width: 100%;
+    height: 80px;
+    background: #fff;
+}
+.nav-box{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.nav-box h1{
+    font-size: 4.4rem;
+}
+.links
+{
+    
+    width: 30%;
+}
+.links ul{
+    display: flex;
+    justify-content: space-between;
+}
+.links ul li{
+    list-style: none;
+    font-size: 1.8rem;
+}
+.links ul li a{
+    text-decoration: none;
+    color: #555;
+}
+.main-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
