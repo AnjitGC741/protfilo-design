@@ -11,24 +11,39 @@
       href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Inter:wght@400;500;600;700&family=Signika+Negative:wght@300&display=swap"
       rel="stylesheet"
     />
+      <!-- font awesome link -->
+      <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="media-query.css">
     <link rel="icon" href="Icon/favicon (2).ico" />
     <title>Sarfaraz</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="nav-box">
         <h1>S.</h1>
         <div class="links">
           <ul>
+            <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Work</a></li>
             <li><a href="#">Resume</a></li>
           </ul>
         </div>
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        </button>
       </div>
     </header>
-    <div class="main-container">
+    <section>
+    <div class="hero-container">
       <div class="intro-box">
         <p class="description1">Hi, I am</p>
         <h1 class="description2">Sarfaraz Uddin.</h1>
@@ -43,9 +58,11 @@
           <a href="#"><img src="./images/linked in.png" alt=""></a>
         </div>
       </div>
-      <div class="main-container-img">
+      <div class="hero-container-img">
         <img src="./images/sarfaraz-new.jpg" alt="" />
       </div>
     </div>
+    </section>
+    <script src="./script.js"></script>
   </body>
 </html>
