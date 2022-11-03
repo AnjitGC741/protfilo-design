@@ -19,7 +19,7 @@ header{
     background: #fff;
 }
 .nav-box{
-    width: 80%;
+    width: 75%;
     height: 100%;
     margin: 0 auto;
     display: flex;
@@ -52,6 +52,7 @@ header{
     text-decoration: underline;
     color: #F8A829;
 }
+
 .btn-mobile-nav{
     border: none;
     background: none;
@@ -70,8 +71,9 @@ header{
     padding:0 2%;
     display: flex;
     align-items: center;
+    /* background-color: red; */
     /* justify-content: space-between; */
-    height: 65rem;
+    height: 67.4rem;
 }
 .intro-box{
     width: 50%;
@@ -130,3 +132,158 @@ header{
     margin-top:-10px;
     height: 70px;
 }
+.dotted{
+    border: dotted #F8A829 0.8rem ;
+    width: 6%;
+    border-bottom: none;
+    margin: 8rem auto;
+}
+/* description box */
+.info-box{
+    max-width: 970px;
+    margin: 0 auto;
+    margin-bottom: 7rem;
+    /* background-color: aquamarine; */
+}
+.help-box{
+    height: 16rem;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.help-box h1{
+
+    font-size: 3.8rem;
+    font-weight: 400;
+    color: #3C240C;
+}
+.designing-box{
+    display: flex;
+    width: 100%;
+}
+.img-box-design{
+    width: 50%;
+}
+.img-box-design img{
+    width: 100%;
+}
+.description-box-design{
+    width: 50%;
+    padding-top: 7rem;
+    padding-left: 8%;
+}
+.description-box-design h3{
+    color: #F8A829;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+.description-box-design p{
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+.developing-box{
+    display: flex;
+    width: 100%;
+}
+.img-box-develop{
+    width: 50%;
+}
+.img-box-develop img{
+    width: 100%;
+}
+.description-box-develop{
+    width: 50%;
+    padding-top: 7rem;
+    padding-right: 8%;
+}
+.description-box-develop h3{
+    color: #F8A829;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+.description-box-develop p{
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+footer{
+    height: 4rem;
+    width: 100%;
+    background-color: #3C240C;
+    padding-top: 1rem;
+}
+footer p{
+    text-align: center;
+    color: #F8A829;
+    font-size: 1.6rem;
+}
+/*****************************************/
+   /* home page design ends*/
+/*****************************************/
+
+.aboutMe-section{
+ 
+    margin-top: 10rem;
+    max-width: 115rem;
+    margin: 5rem auto 0;
+    height: 65rem;
+}
+.aboutMe-section h1{
+    color: #F8A829;
+    text-align: left;
+    font-size: 4.4rem;
+    margin-bottom: 3rem;
+}
+/* hr{
+    border:0.1px solid #F8A829;
+    margin-bottom: 2rem;
+} */
+.intro-section{
+    
+    height: 55rem;
+    display: flex;
+    justify-content: space-between;
+}
+.intro-img{
+    width: 40%;
+   
+
+}
+.intro-img img{
+    width: 100%;
+    border-radius: 5%;
+    
+}
+.intro-desc{
+  
+    width: 50%;
+}
+.intro-desc p{
+    font-size: 1.8rem;
+    line-height: 1.8;
+}
+.education-section{
+    max-width: 115rem;
+    margin: 0 auto;
+}
+.education-section h2{
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    color: #F8A829;
+}
+.university-name{
+    font-size: 2.4rem;
+    margin-top: 3rem;
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    color: black;
+}
+.course{
+    margin-top: 1rem;
+    line-height: 1.75;
+    font-size: 1.6rem;
+    color: #888;
+}
+
