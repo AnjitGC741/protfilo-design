@@ -53,6 +53,7 @@ header{
     color: #F8A829;
 }
 
+
 .btn-mobile-nav{
     border: none;
     background: none;
@@ -211,6 +212,7 @@ footer{
     width: 100%;
     background-color: #3C240C;
     padding-top: 1rem;
+    margin-top: 10rem;
 }
 footer p{
     text-align: center;
@@ -266,8 +268,8 @@ footer p{
     max-width: 115rem;
     margin: 0 auto;
 }
-.education-section h2{
-    font-size: 5rem;
+.education-section h3{
+    font-size: 4rem;
     font-weight: 900;
     line-height: 1.5;
     letter-spacing: 0.01em;
@@ -275,7 +277,7 @@ footer p{
 }
 .university-name{
     font-size: 2.4rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
     line-height: 1.75;
     letter-spacing: 0.01em;
     color: black;
@@ -286,4 +288,87 @@ footer p{
     font-size: 1.6rem;
     color: #888;
 }
+/* ***************************** */
 
+/* programming language section */
+
+/* *************************** */
+.skill-section{
+    max-width: 115rem;
+    margin: 0 auto;
+}
+.skill-section h3{
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    color: #F8A829;   
+}
+.programming-skills{
+    margin-top: 5rem;
+}
+.programming-skills p{
+    font-size: 2.4rem;
+    /* margin-top: 2rem; */
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    color: black;
+}
+.skill-boxes{
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    /* background-color: red;*/
+} 
+.single-skill-box{
+    display: flex;
+    gap: 2rem;
+    height: 5rem;
+    width: 30rem;
+    margin-right: 8rem;
+    margin-top: 3rem;
+    /* background-color: green; */
+}
+.skill-logo img{
+    height: 5rem;
+}
+.skill-name{
+    width: 100%;
+   
+}
+.skill-boxes p{
+    color: #888 !important;
+}
+.skill-name hr{
+    border: 0.1px solid #888;
+}
+.designing-skills{
+    margin-top: 5rem;
+}
+.designing-skills p{
+    font-size: 2.4rem;
+    /* margin-top: 2rem; */
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    color: black;
+}
+.framework-skills{
+    margin-top: 5rem;
+}
+.framework-skills p{
+    font-size: 2.4rem;
+    /* margin-top: 2rem; */
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    color: black;
+}
+.database-skills {
+    margin-top: 5rem;
+}
+.database-skills p{
+    font-size: 2.4rem;
+    /* margin-top: 2rem; */
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    color: black;
+}
