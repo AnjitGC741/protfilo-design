@@ -43,12 +43,16 @@ header{
     list-style: none;
     font-size: 1.8rem;
 }
-.links ul li a{
+.tags{
     text-decoration: none;
     color: #555;
     transition: all 0.3s;
 }
-.links ul li a:hover{
+.tags:hover{
+    text-decoration: underline;
+    color: #F8A829;
+}
+ .clickEffect{
     text-decoration: underline;
     color: #F8A829;
 }
@@ -74,7 +78,7 @@ header{
     align-items: center;
     /* background-color: red; */
     /* justify-content: space-between; */
-    height: 67.4rem;
+    /* height: 67.4rem; */
 }
 .intro-box{
     width: 50%;
@@ -87,7 +91,7 @@ header{
 }
 /* intro box */
  .intro-box{
-    margin-top: 18rem; 
+    margin-top: 8rem; 
  }
 .description1{
     
@@ -98,13 +102,13 @@ header{
 }
 
 .description2{
-    margin-top: 10px;
+    margin-top: 2rem!important;
     font-size: 6.2rem;
     color: #F8A829;
 
 }
 .description3{
-    margin-top: 10px;
+    margin-top: 2rem;
     font-size: 2.4rem;
     font-weight: 300;
     color: #3C240C;
@@ -118,7 +122,7 @@ header{
     font-size: 2rem;
     padding: 1.6rem 3.2rem;
     border-radius: 9px;
-    margin-top: 15px;
+    margin-top: 4rem;
 }
 .social-media-links{
     display: flex;
@@ -327,13 +331,20 @@ footer p{
     width: 30rem;
     margin-right: 8rem;
     margin-top: 3rem;
+    transition: all 0.3s;
     /* background-color: green; */
+}
+.single-skill-box:hover{
+    transform: scale(1.2);
 }
 .skill-logo img{
     height: 5rem;
 }
+
+
 .skill-name{
     width: 100%;
+    transition: all 0.3s;
    
 }
 .skill-boxes p{
@@ -368,6 +379,13 @@ footer p{
 .database-skills p{
     font-size: 2.4rem;
     /* margin-top: 2rem; */
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    color: black;
+}
+.skills-heading{
+    font-size: 2.4rem;
+font-weight: 600;
     line-height: 1.75;
     letter-spacing: 0.01em;
     color: black;
